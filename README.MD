@@ -33,3 +33,15 @@ Run the main script:
 ```bash
 npm start crawl
 ```
+
+## Contribution
+
+Contributions and suggestions are highly appreciated. If you would like to contribute to this project, please open an _issue_ or submit a _pull request_.
+
+## License
+
+Distribute under the MIT license. For more information, see `LICENSE`.
+
+---
+
+© 2024 zch. Built with love for the developer community.
