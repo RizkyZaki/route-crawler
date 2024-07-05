@@ -1,0 +1,26 @@
+{
+  "name": "route-crawler",
+  "version": "1.0.0",
+  "description": "RouteCrawler is a Node.js-based CLI application designed to scan a given website and display all the routes found on it. By utilizing modern web technologies such as axios for making HTTP requests and jsdom for parsing HTML, RouteFinder effectively extracts and lists all hyperlinks present in a webpage. This tool is particularly useful for web developers and SEO specialists who need to quickly analyze the structure of a website.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "finder",
+    "url Finder",
+    "Route Finder",
+    "Route Crawler"
+  ],
+  "author": "Zch ",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^2.4.2",
+    "commander": "^12.1.0",
+    "figlet": "^1.7.0",
+    "jsdom": "^24.1.0",
+    "puppeteer": "^22.12.1"
+  }
+}
