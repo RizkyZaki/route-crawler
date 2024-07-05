@@ -1,15 +1,15 @@
-# vidownload js
+# Route Crawler
 
-![Example Output](images/Capture.PNG)
+![Interface](images/Capture.PNG)
 
-vidownload js is a Node.js based CLI application designed to make it easier for users to download videos from Instagram Reels. This application uses technologies such as Puppeteer to control the browser and Axios to make HTTP requests to the Instagram server.
+Route Crawler is a CLI application built with Node.js that scans a given website and displays all the routes found on it. It utilizes modern web technologies such as axios for making HTTP requests and jsdom for parsing HTML, effectively extracting and listing all hyperlinks present on a webpage.
 
-## Main feature
+## Features
 
-- **Simple Use**: Just enter the URL of an Instagram Reels video, and the app will download it automatically.
-- **CLI Interface**: Built using readline for an interactive command line interface.
-- **Puppeteer for Automation**: Use Puppeteer to access and control Instagram web pages.
-- **Axios for HTTP Requests**: Leverages Axios to download videos from a given URL.
+- Scans a given website for all routes.
+- Handles dynamic routes and JavaScript-driven navigation.
+- Outputs the total number of routes found.
+- Provides a list of all discovered routes.
 
 ## Installation
 
@@ -33,3 +33,7 @@ Run the main script:
 ```bash
 npm start crawl
 ```
+
+## Example Output
+
+![Example Output](images/Capture.PNG)
