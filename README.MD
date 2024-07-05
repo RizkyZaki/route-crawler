@@ -33,7 +33,3 @@ Run the main script:
 ```bash
 npm start crawl
 ```
-
-## Example Output
-
-![Example Output](images/Capture.PNG)
